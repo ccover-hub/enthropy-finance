@@ -1,0 +1,7 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+beancount>=3.0
+beanquery>=0.2
+python-dateutil>=2.8
+pytest>=7.0
+httpx>=0.25
