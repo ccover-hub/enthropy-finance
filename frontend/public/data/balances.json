@@ -1,0 +1,26 @@
+{
+  "Assets:AccountsReceivable:US": [
+    {
+      "amount": "12000.00",
+      "currency": "USD"
+    }
+  ],
+  "Assets:Bank:MX:Checking": [
+    {
+      "amount": "84200.00",
+      "currency": "MXN"
+    }
+  ],
+  "Assets:Bank:US:Checking": [
+    {
+      "amount": "6612.00",
+      "currency": "USD"
+    }
+  ],
+  "Liabilities:Dividends:Pending": [
+    {
+      "amount": "-2000.00",
+      "currency": "USD"
+    }
+  ]
+}

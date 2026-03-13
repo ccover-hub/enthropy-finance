@@ -1,0 +1,270 @@
+{
+  "balances": {
+    "Assets:AccountsReceivable:US": [
+      {
+        "amount": "12000.00",
+        "currency": "USD"
+      }
+    ],
+    "Assets:Bank:MX:Checking": [
+      {
+        "amount": "84200.00",
+        "currency": "MXN"
+      }
+    ],
+    "Assets:Bank:US:Checking": [
+      {
+        "amount": "6612.00",
+        "currency": "USD"
+      }
+    ],
+    "Liabilities:Dividends:Pending": [
+      {
+        "amount": "-2000.00",
+        "currency": "USD"
+      }
+    ]
+  },
+  "recent_transactions": [
+    {
+      "date": "2026-03-01",
+      "payee": "Pago dividendo",
+      "narration": "Pago parcial dividendo Q4 2025",
+      "postings": [
+        {
+          "account": "Liabilities:Dividends:Pending",
+          "amount": "1000.00",
+          "currency": "USD"
+        },
+        {
+          "account": "Assets:Bank:US:Checking",
+          "amount": "-1000.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-01",
+      "payee": "Client Gamma",
+      "narration": "Software project milestone 1",
+      "postings": [
+        {
+          "account": "Assets:AccountsReceivable:US",
+          "amount": "12000.00",
+          "currency": "USD"
+        },
+        {
+          "account": "Income:Development",
+          "amount": "-12000.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-28",
+      "payee": "Nomina",
+      "narration": "Salarios - Febrero",
+      "postings": [
+        {
+          "account": "Expenses:Salaries",
+          "amount": "45000.00",
+          "currency": "MXN"
+        },
+        {
+          "account": "Assets:Bank:MX:Checking",
+          "amount": "-45000.00",
+          "currency": "MXN"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "payee": "Cliente Beta",
+      "narration": "Desarrollo de software - Febrero",
+      "postings": [
+        {
+          "account": "Assets:Bank:MX:Checking",
+          "amount": "85000.00",
+          "currency": "MXN"
+        },
+        {
+          "account": "Income:Development",
+          "amount": "-85000.00",
+          "currency": "MXN"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "payee": "Client Alpha",
+      "narration": "Consulting services - February",
+      "postings": [
+        {
+          "account": "Assets:Bank:US:Checking",
+          "amount": "5000.00",
+          "currency": "USD"
+        },
+        {
+          "account": "Income:Consulting",
+          "amount": "-5000.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "payee": "WeWork",
+      "narration": "Renta oficina - Febrero",
+      "postings": [
+        {
+          "account": "Expenses:Office",
+          "amount": "15000.00",
+          "currency": "MXN"
+        },
+        {
+          "account": "Assets:Bank:MX:Checking",
+          "amount": "-15000.00",
+          "currency": "MXN"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "payee": "AWS",
+      "narration": "Cloud hosting - February",
+      "postings": [
+        {
+          "account": "Expenses:Software",
+          "amount": "150.00",
+          "currency": "USD"
+        },
+        {
+          "account": "Assets:Bank:US:Checking",
+          "amount": "-150.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "payee": "GitHub",
+      "narration": "GitHub Team subscription",
+      "postings": [
+        {
+          "account": "Expenses:Software",
+          "amount": "44.00",
+          "currency": "USD"
+        },
+        {
+          "account": "Assets:Bank:US:Checking",
+          "amount": "-44.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-01",
+      "payee": "Dividendo Q4 2025",
+      "narration": "Dividendo pendiente para socios",
+      "postings": [
+        {
+          "account": "Expenses:Deductions",
+          "amount": "3000.00",
+          "currency": "USD"
+        },
+        {
+          "account": "Liabilities:Dividends:Pending",
+          "amount": "-3000.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "payee": "Nomina",
+      "narration": "Salarios - Enero",
+      "postings": [
+        {
+          "account": "Expenses:Salaries",
+          "amount": "45000.00",
+          "currency": "MXN"
+        },
+        {
+          "account": "Assets:Bank:MX:Checking",
+          "amount": "-45000.00",
+          "currency": "MXN"
+        }
+      ]
+    }
+  ],
+  "income_vs_expenses": {
+    "income": [
+      {
+        "account": "Income:Consulting",
+        "positions": [
+          {
+            "amount": "-10000.00",
+            "currency": "USD"
+          }
+        ]
+      },
+      {
+        "account": "Income:Development",
+        "positions": [
+          {
+            "amount": "-170000.00",
+            "currency": "MXN"
+          },
+          {
+            "amount": "-12000.00",
+            "currency": "USD"
+          }
+        ]
+      }
+    ],
+    "expenses": [
+      {
+        "account": "Expenses:Deductions",
+        "positions": [
+          {
+            "amount": "3000.00",
+            "currency": "USD"
+          }
+        ]
+      },
+      {
+        "account": "Expenses:Office",
+        "positions": [
+          {
+            "amount": "30000.00",
+            "currency": "MXN"
+          }
+        ]
+      },
+      {
+        "account": "Expenses:Salaries",
+        "positions": [
+          {
+            "amount": "90000.00",
+            "currency": "MXN"
+          }
+        ]
+      },
+      {
+        "account": "Expenses:Software",
+        "positions": [
+          {
+            "amount": "388.00",
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  },
+  "pending_dividends": [
+    {
+      "amount": "-2000.00",
+      "currency": "USD"
+    }
+  ]
+}

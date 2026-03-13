@@ -1,0 +1,64 @@
+{
+  "income": [
+    {
+      "account": "Income:Consulting",
+      "positions": [
+        {
+          "amount": "-10000.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "account": "Income:Development",
+      "positions": [
+        {
+          "amount": "-170000.00",
+          "currency": "MXN"
+        },
+        {
+          "amount": "-12000.00",
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "expenses": [
+    {
+      "account": "Expenses:Deductions",
+      "positions": [
+        {
+          "amount": "3000.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "account": "Expenses:Office",
+      "positions": [
+        {
+          "amount": "30000.00",
+          "currency": "MXN"
+        }
+      ]
+    },
+    {
+      "account": "Expenses:Salaries",
+      "positions": [
+        {
+          "amount": "90000.00",
+          "currency": "MXN"
+        }
+      ]
+    },
+    {
+      "account": "Expenses:Software",
+      "positions": [
+        {
+          "amount": "388.00",
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "assets": [
+    {
+      "account": "Assets:AccountsReceivable:US",
+      "positions": [
+        {
+          "amount": "12000.00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "account": "Assets:Bank:MX:Checking",
+      "positions": [
+        {
+          "amount": "84200.00",
+          "currency": "MXN"
+        }
+      ]
+    },
+    {
+      "account": "Assets:Bank:US:Checking",
+      "positions": [
+        {
+          "amount": "6612.00",
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "liabilities": [
+    {
+      "account": "Liabilities:Dividends:Pending",
+      "positions": [
+        {
+          "amount": "-2000.00",
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "equity": []
+}

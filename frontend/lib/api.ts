@@ -1,9 +1,30 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+// frontend/lib/api.ts
+const API_BASE = process.env.NEXT_PUBLIC_API_URL;
+const IS_STATIC = !API_BASE;
 
 async function fetchAPI<T>(path: string): Promise<T> {
-  const res = await fetch(`${API_BASE}${path}`, { cache: "no-store" });
+  const url = IS_STATIC ? getStaticPath(path) : `${API_BASE}${path}`;
+  const res = await fetch(url, { cache: "no-store" });
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   return res.json();
+}
+
+function getStaticPath(apiPath: string): string {
+  const mapping: Record<string, string> = {
+    "/api/health": "/data/dashboard.json",
+    "/api/accounts": "/data/accounts.json",
+    "/api/accounts/balances": "/data/balances.json",
+    "/api/reports/income-statement": "/data/income-statement.json",
+    "/api/reports/balance-sheet": "/data/balance-sheet.json",
+    "/api/dashboard": "/data/dashboard.json",
+  };
+
+  // Handle /api/transactions with query params
+  if (apiPath.startsWith("/api/transactions")) {
+    return "/data/transactions.json";
+  }
+
+  return mapping[apiPath] || apiPath;
 }
 
 export interface Posting {
