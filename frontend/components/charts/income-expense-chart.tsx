@@ -45,7 +45,7 @@ export function IncomeExpenseChart({ income, expenses }: Props) {
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
         <YAxis />
-        <Tooltip formatter={(value: number) => `$${value.toLocaleString()}`} />
+        <Tooltip formatter={(value) => `$${Number(value).toLocaleString()}`} />
         <Bar dataKey="amount" />
       </BarChart>
     </ResponsiveContainer>

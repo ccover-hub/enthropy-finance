@@ -36,13 +36,13 @@ export function BalanceChart({ balances }: Props) {
           innerRadius={60}
           outerRadius={100}
           dataKey="value"
-          label={({ name, value }: { name: string; value: number }) => `${name}: $${value.toLocaleString()}`}
+          label={({ name, value }: { name?: string; value?: number }) => `${name ?? ""}: $${(value ?? 0).toLocaleString()}`}
         >
           {data.map((_, index) => (
             <Cell key={index} fill={COLORS[index % COLORS.length]} />
           ))}
         </Pie>
-        <Tooltip formatter={(value: number) => `$${value.toLocaleString()}`} />
+        <Tooltip formatter={(value) => `$${Number(value).toLocaleString()}`} />
         <Legend />
       </PieChart>
     </ResponsiveContainer>
