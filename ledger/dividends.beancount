@@ -1,0 +1,9 @@
+; Dividend Transactions
+
+2026-02-01 * "Dividendo Q4 2025" "Dividendo pendiente para socios"
+  Expenses:Deductions              3000.00 USD
+  Liabilities:Dividends:Pending   -3000.00 USD
+
+2026-03-01 * "Pago dividendo" "Pago parcial dividendo Q4 2025"
+  Liabilities:Dividends:Pending    1000.00 USD
+  Assets:Bank:US:Checking         -1000.00 USD

@@ -1,0 +1,33 @@
+; 2026 Expense Transactions
+
+2026-01-05 * "GitHub" "GitHub Team subscription"
+  Expenses:Software                44.00 USD
+  Assets:Bank:US:Checking         -44.00 USD
+
+2026-01-10 * "AWS" "Cloud hosting - January"
+  Expenses:Software               150.00 USD
+  Assets:Bank:US:Checking        -150.00 USD
+
+2026-01-15 * "WeWork" "Renta oficina - Enero"
+  Expenses:Office               15000.00 MXN
+  Assets:Bank:MX:Checking     -15000.00 MXN
+
+2026-01-31 * "Nomina" "Salarios - Enero"
+  Expenses:Salaries             45000.00 MXN
+  Assets:Bank:MX:Checking     -45000.00 MXN
+
+2026-02-05 * "GitHub" "GitHub Team subscription"
+  Expenses:Software                44.00 USD
+  Assets:Bank:US:Checking         -44.00 USD
+
+2026-02-10 * "AWS" "Cloud hosting - February"
+  Expenses:Software               150.00 USD
+  Assets:Bank:US:Checking        -150.00 USD
+
+2026-02-15 * "WeWork" "Renta oficina - Febrero"
+  Expenses:Office               15000.00 MXN
+  Assets:Bank:MX:Checking     -15000.00 MXN
+
+2026-02-28 * "Nomina" "Salarios - Febrero"
+  Expenses:Salaries             45000.00 MXN
+  Assets:Bank:MX:Checking     -45000.00 MXN

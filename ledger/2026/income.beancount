@@ -1,0 +1,21 @@
+; 2026 Income Transactions
+
+2026-01-15 * "Client Alpha" "Consulting services - January"
+  Assets:Bank:US:Checking           5000.00 USD
+  Income:Consulting                -5000.00 USD
+
+2026-01-20 * "Cliente Beta" "Desarrollo de software - Enero"
+  Assets:Bank:MX:Checking         85000.00 MXN
+  Income:Development             -85000.00 MXN
+
+2026-02-15 * "Client Alpha" "Consulting services - February"
+  Assets:Bank:US:Checking           5000.00 USD
+  Income:Consulting                -5000.00 USD
+
+2026-02-20 * "Cliente Beta" "Desarrollo de software - Febrero"
+  Assets:Bank:MX:Checking         85000.00 MXN
+  Income:Development             -85000.00 MXN
+
+2026-03-01 * "Client Gamma" "Software project milestone 1"
+  Assets:AccountsReceivable:US     12000.00 USD
+  Income:Development              -12000.00 USD

@@ -1,0 +1,5 @@
+; 2026 Inter-account Transfers
+
+2026-01-25 * "Transfer" "USD to MXN for operations"
+  Assets:Bank:MX:Checking         34200.00 MXN
+  Assets:Bank:US:Checking         -2000.00 USD @@ 34200.00 MXN

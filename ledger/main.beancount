@@ -1,0 +1,12 @@
+; Enthropy Finance - Main Ledger
+
+option "title" "Enthropy Finance"
+option "operating_currency" "USD"
+option "operating_currency" "MXN"
+
+include "accounts.beancount"
+include "prices.beancount"
+include "dividends.beancount"
+include "2026/income.beancount"
+include "2026/expenses.beancount"
+include "2026/transfers.beancount"
