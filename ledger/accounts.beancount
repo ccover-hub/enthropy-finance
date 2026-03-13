@@ -1,0 +1,39 @@
+; Enthropy Finance - Chart of Accounts
+; Software Development & Consulting Company
+; Operations in Mexico (MXN) and United States (USD)
+
+; === Assets ===
+2026-01-01 open Assets:Bank:MX:Checking                MXN
+2026-01-01 open Assets:Bank:US:Checking                USD
+2026-01-01 open Assets:AccountsReceivable:MX           MXN
+2026-01-01 open Assets:AccountsReceivable:US           USD
+
+; === Liabilities ===
+2026-01-01 open Liabilities:Dividends:Pending          USD,MXN
+2026-01-01 open Liabilities:Taxes:MX                   MXN
+2026-01-01 open Liabilities:Taxes:US                   USD
+2026-01-01 open Liabilities:CreditCard:MX              MXN
+2026-01-01 open Liabilities:CreditCard:US              USD
+
+; === Income ===
+2026-01-01 open Income:Consulting                      USD,MXN
+2026-01-01 open Income:Development                     USD,MXN
+2026-01-01 open Income:Other                           USD,MXN
+
+; === Expenses ===
+2026-01-01 open Expenses:Salaries                      USD,MXN
+2026-01-01 open Expenses:Software                      USD,MXN
+2026-01-01 open Expenses:Office                        USD,MXN
+2026-01-01 open Expenses:Taxes:MX                      MXN
+2026-01-01 open Expenses:Taxes:US                      USD
+2026-01-01 open Expenses:Deductions                    USD,MXN
+2026-01-01 open Expenses:Banking:Fees                  USD,MXN
+2026-01-01 open Expenses:Travel                        USD,MXN
+2026-01-01 open Expenses:Marketing                     USD,MXN
+2026-01-01 open Expenses:Legal                         USD,MXN
+2026-01-01 open Expenses:Insurance                     USD,MXN
+
+; === Equity ===
+2026-01-01 open Equity:Opening-Balances
+2026-01-01 open Equity:Dividends:Paid                  USD,MXN
+2026-01-01 open Equity:Retained-Earnings               USD,MXN
